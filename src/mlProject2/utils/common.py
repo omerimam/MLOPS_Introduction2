@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from mlProject import logger
+from mlProject2 import logger
 import json
 import joblib
 from ensure import ensure_annotations
@@ -34,7 +34,8 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
         raise ValueError("yaml file is empty")
     except Exception as e:
         raise e
-    
+
+
 
 
 @ensure_annotations
