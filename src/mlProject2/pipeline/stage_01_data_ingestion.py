@@ -1,6 +1,6 @@
-from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.data_ingestion import DataIngestion
-from mlProject import logger
+from mlProject2.config.configuration import ConfigurationManager
+from mlProject2.components.data_ingestion import DataIngestion
+from mlProject2 import logger
 
 
 STAGE_NAME = "Data Ingestion stage"
